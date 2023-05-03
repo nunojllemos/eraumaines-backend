@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_person_home_people",
+  "info": {
+    "displayName": "home_person"
+  },
+  "options": {},
+  "attributes": {
+    "person_photo": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "person_name": {
+      "type": "string"
+    },
+    "person_description": {
+      "type": "text"
+    },
+    "person_role": {
+      "type": "string"
+    },
+    "person_url": {
+      "type": "string"
+    }
+  }
+}
