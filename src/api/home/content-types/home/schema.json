@@ -81,6 +81,19 @@
         }
       },
       "type": "text"
+    },
+    "stories": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "stories-grid.media",
+        "stories-grid.reviews",
+        "stories-grid.story"
+      ]
     }
   }
 }

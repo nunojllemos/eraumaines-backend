@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_stories_grid_reviews",
+  "info": {
+    "displayName": "reviews",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "review": {
+      "type": "component",
+      "repeatable": true,
+      "component": "testimonial.review"
+    }
+  }
+}

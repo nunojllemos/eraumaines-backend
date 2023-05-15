@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_stories_grid_stories",
+  "info": {
+    "displayName": "story"
+  },
+  "options": {},
+  "attributes": {
+    "story": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::story.story"
+    }
+  }
+}
