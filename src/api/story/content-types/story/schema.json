@@ -94,6 +94,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::category.category"
+    },
+    "stories_related": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::story.story"
     }
   }
 }
