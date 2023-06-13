@@ -44,15 +44,9 @@
       }
     },
     "reviews": {
-      "type": "dynamiczone",
-      "components": [
-        "testimonial.review"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::review.review"
     }
   }
 }
