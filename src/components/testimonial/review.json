@@ -6,15 +6,10 @@
   },
   "options": {},
   "attributes": {
-    "text": {
-      "type": "text",
-      "maxLength": 250
-    },
-    "year": {
-      "type": "string"
-    },
-    "names": {
-      "type": "string"
+    "reviews": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::review.review"
     }
   }
 }
