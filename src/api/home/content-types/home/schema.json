@@ -94,6 +94,16 @@
         "stories-grid.reviews",
         "stories-grid.story"
       ]
+    },
+    "background_color": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
     }
   }
 }
