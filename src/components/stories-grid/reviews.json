@@ -6,10 +6,10 @@
   },
   "options": {},
   "attributes": {
-    "review": {
-      "type": "component",
-      "repeatable": true,
-      "component": "testimonial.review"
+    "reviews": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::review.review"
     }
   }
 }
