@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "homes",
+  "collectionName": "homepages",
   "info": {
-    "singularName": "home",
-    "pluralName": "homes",
-    "displayName": "Home",
-    "description": ""
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage"
   },
   "options": {
     "draftAndPublish": true
@@ -22,31 +21,20 @@
           "localized": true
         }
       },
-      "type": "string",
-      "maxLength": 30,
-      "default": "histórias com arte"
+      "type": "string"
     },
     "hero_media": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
       "allowedTypes": [
         "images",
         "videos"
       ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      }
-    },
-    "meta_title": {
+      "type": "media",
+      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "type": "string"
+      }
     },
     "about_title": {
       "pluginOptions": {
@@ -74,14 +62,6 @@
       },
       "component": "person.home-person"
     },
-    "meta_description": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "text"
-    },
     "stories": {
       "pluginOptions": {
         "i18n": {
@@ -94,16 +74,6 @@
         "stories-grid.reviews",
         "stories-grid.story"
       ]
-    },
-    "background_color": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "customField": "plugin::color-picker.color"
     }
   }
 }
