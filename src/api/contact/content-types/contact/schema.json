@@ -48,6 +48,14 @@
         "contacts.email",
         "contacts.phone"
       ]
+    },
+    "welcome_message": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

@@ -35,6 +35,14 @@
       },
       "type": "string",
       "required": true
+    },
+    "template_id": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
     }
   }
 }
