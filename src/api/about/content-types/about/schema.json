@@ -16,22 +16,6 @@
     }
   },
   "attributes": {
-    "description_01": {
-      "type": "text",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "description_02": {
-      "type": "text",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "persons": {
       "type": "dynamiczone",
       "components": [

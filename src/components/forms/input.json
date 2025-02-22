@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_forms_inputs",
+  "info": {
+    "displayName": "input",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "input_name": {
+      "type": "string",
+      "default": "input_"
+    },
+    "input_type": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "number",
+        "date"
+      ],
+      "default": "text"
+    }
+  }
+}
