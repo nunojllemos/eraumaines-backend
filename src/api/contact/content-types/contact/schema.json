@@ -56,6 +56,16 @@
         }
       },
       "type": "string"
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "socials.social-media"
     }
   }
 }
